@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: rgb(232, 153, 232);
+
+}
+.box{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.box form div>input{
+    width: 100%;
+    padding: 10px;
+    outline-color: aliceblue;
+}
+.box form div>label{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+       text-transform: capitalize;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: center;
+}
+.box form div select{
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.box form div input:nth-child(odd){
+    background: rgb(23, 23, 198);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    width: 200px;
+
+}
+li{
+    list-style: none;
+}
+a{
+      text-decoration: none;
+      color: white;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+a:active{
+    color: green;
+}
